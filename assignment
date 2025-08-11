@@ -1,0 +1,15 @@
+package Day2;
+public class assignment {
+	public static void main(String[] args) {
+
+		int num = 17;
+		num%=10;
+		System.out.println(num);
+		num = 20;
+		num-=19;
+		System.out.println(num);
+	
+
+	}
+
+}
