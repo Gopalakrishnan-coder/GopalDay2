@@ -1,0 +1,11 @@
+package Day2;
+public class Ternary {
+    public static void main(String[] args) {
+        int number1 = 11;
+        int number2 = 7;
+        String status1 = (number1 % 2 == 0) ? "Even" : "Odd";
+        System.out.println(number1 + " is " + status1);
+        String status2 = (number2 % 2 == 0) ? "Even" : "Odd";
+        System.out.println(number2 + " is " + status2);
+    }
+}
