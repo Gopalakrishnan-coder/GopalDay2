@@ -1,0 +1,11 @@
+package Day2;
+public class Bitwise {
+	public static void main(String[] args) {
+		int num= 11;
+		int num2=18;
+		System.out.println(num & num2);
+		System.out.println(num ^ num2);
+		System.out.println(num | num2);
+	}
+
+}
